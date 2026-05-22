@@ -14,22 +14,22 @@ El proyecto consiste en una composición visual interactiva inspirada en el arte
 En pantalla se observa una grilla formada por múltiples letras distribuidas de manera uniforme sobre un fondo negro. Estas letras no permanecen estáticas, sino que se deforman y desplazan constantemente mediante movimientos ondulados generados con funciones matemáticas. Además, la composición cambia dependiendo de la posición del mouse, provocando que las letras reaccionen y transformen su comportamiento visual según la cercanía del cursor.
 
 - ### Qué elementos visuales aparecen
-- patrones tipográficos repetitivos organizados en una grilla,
-- movimiento horizontal interactivo,
-- deformaciones onduladas inspiradas en efectos ópticos,
-- cambios de letras mediante condicionales,
-- variaciones de color generadas aleatoriamente al hacer click, y una estética de alto contraste entre colores brillantes y fondo negro para reforzar la sensación cinética y visual.
+— patrones tipográficos repetitivos organizados en una grilla,
+— movimiento horizontal interactivo,
+— deformaciones onduladas inspiradas en efectos ópticos,
+— cambios de letras mediante condicionales,
+— variaciones de color generadas aleatoriamente al hacer click, y una estética de alto contraste entre colores brillantes y fondo negro para reforzar la sensación cinética y visual.
 
 - ### Qué inputs utiliza
 El proyecto utiliza principalmente inputs generados por la interacción del usuario y por funciones internas del sistema.
 
 Los inputs principales son:
 
-- mouseX → detecta la posición horizontal del mouse.
-- mouseY → detecta la posición vertical del mouse.
-- mousePressed() → detecta cuando el usuario hace click.
-- frameCount → registra la cantidad de cuadros del sistema para generar movimiento continuo.
-- random() → genera valores aleatorios para los cambios de color.
+— mouseX → detecta la posición horizontal del mouse.
+— mouseY → detecta la posición vertical del mouse.
+— mousePressed() → detecta cuando el usuario hace click.
+— frameCount → registra la cantidad de cuadros del sistema para generar movimiento continuo.
+— random() → genera valores aleatorios para los cambios de color.
 
 Estos inputs permiten que la composición reaccione en tiempo real y modifique su comportamiento visual constantemente.
 
@@ -38,13 +38,13 @@ El proyecto genera outputs visuales dinámicos en pantalla.
 
 Los outputs principales son:
 
-- una grilla tipográfica compuesta por letras,
-- movimiento horizontal reactivo al mouse,
-- deformaciones onduladas cinéticas,
-- cambios de letras según la distancia del cursor,
-- variaciones de color aleatorias,
-- patrones visuales en constante transformación,
-- y una composición interactiva inspirada en el arte óptico y cinético.
+— una grilla tipográfica compuesta por letras,
+— movimiento horizontal reactivo al mouse,
+— deformaciones onduladas cinéticas,
+— cambios de letras según la distancia del cursor,
+— variaciones de color aleatorias,
+— patrones visuales en constante transformación,
+— y una composición interactiva inspirada en el arte óptico y cinético.
 
 El resultado final es una experiencia visual dinámica donde el usuario modifica la obra mediante el movimiento e interacción con el mouse.
 
@@ -60,8 +60,8 @@ Además, el proyecto explora cómo elementos simples, como letras repetidas, pue
 - ### Corriente o referente de diseño con el que dialoga
 El proyecto dialoga principalmente con:
 
-- el Arte Cinético, por el uso de movimiento visual y sensación de dinamismo;
-- y el Op Art, debido a la utilización de repetición, patrones geométricos y efectos ópticos que alteran la percepción visual.
+— el Arte Cinético, por el uso de movimiento visual y sensación de dinamismo;
+— y el Op Art, debido a la utilización de repetición, patrones geométricos y efectos ópticos que alteran la percepción visual.
 
 - ### Listado y breve descripción de referentes visuales, teóricos o históricos
 **Arte Cinético**
@@ -83,13 +83,13 @@ El proyecto utiliza letras como elementos visuales modulares, alejándose de su 
 - ### Principio de diseño explorado
 El proyecto explora principalmente los siguientes principios de diseño:
 
-- **Repetición:** utilización continua de letras organizadas en una grilla.
-- **Movimiento:** desplazamientos ondulados y reacción al mouse.
-- **Contraste:** uso de colores brillantes sobre fondo negro.
-- **Ritmo visual:** patrones repetitivos que generan continuidad visual.
-- **Variación:** cambios de letras, color y deformación según la interacción.
-- **Interactividad:** el usuario modifica la composición mediante el movimiento y el click del mouse.
-- **Unidad visual:** todos los elementos funcionan como parte de un mismo sistema dinámico.
+— **Repetición:** utilización continua de letras organizadas en una grilla.
+— **Movimiento:** desplazamientos ondulados y reacción al mouse.
+— **Contraste:** uso de colores brillantes sobre fondo negro.
+— **Ritmo visual:** patrones repetitivos que generan continuidad visual.
+— **Variación:** cambios de letras, color y deformación según la interacción.
+— **Interactividad:** el usuario modifica la composición mediante el movimiento y el click del mouse.
+— **Unidad visual:** todos los elementos funcionan como parte de un mismo sistema dinámico.
 
 ## Input / Output y sistema
 
@@ -109,72 +109,72 @@ Los datos que ingresan al sistema son:
 
 El sistema procesa los datos mediante:
 
-- funciones matemáticas,
-- mapeos,
-- cálculos de distancia,
-- condicionales,
-- y bucles repetitivos.
+— funciones matemáticas,
+— mapeos,
+— cálculos de distancia,
+— condicionales,
+— y bucles repetitivos.
 
 Las principales reglas del sistema son:
 
-- map(mouseX) transforma el movimiento del mouse en desplazamiento horizontal.
-- dist() calcula la cercanía entre el cursor y cada letra.
-- sin(frameCount) genera deformaciones onduladas continuas.
-- los if cambian las letras dependiendo de la distancia al mouse.
-- los bucles for recorren toda la grilla para actualizar cada elemento visual.
-- random() genera nuevos colores cuando el usuario hace click.
+— map(mouseX) transforma el movimiento del mouse en desplazamiento horizontal.
+— dist() calcula la cercanía entre el cursor y cada letra.
+— sin(frameCount) genera deformaciones onduladas continuas.
+— los if cambian las letras dependiendo de la distancia al mouse.
+— los bucles for recorren toda la grilla para actualizar cada elemento visual.
+— random() genera nuevos colores cuando el usuario hace click.
 
 **Outputs**
 
 El sistema produce distintos outputs visuales:
 
-- movimiento cinético,
-- deformaciones onduladas,
-- cambios tipográficos,
-- desplazamientos interactivos,
-- variaciones de color,
-- y patrones visuales dinámicos.
+— movimiento cinético,
+— deformaciones onduladas,
+— cambios tipográficos,
+— desplazamientos interactivos,
+— variaciones de color,
+— y patrones visuales dinámicos.
 
 - ### Explicación del sistema de interactividad
 La interactividad del proyecto depende completamente de la relación entre el usuario y el sistema visual.
 
 Cuando el usuario mueve el mouse:
 
-- la posición del cursor modifica el desplazamiento de las letras;
-- también altera la distancia calculada entre el mouse y cada elemento;
-- esto provoca cambios en el movimiento, deformación y tipo de letra que aparece en pantalla.
+— la posición del cursor modifica el desplazamiento de las letras;
+— también altera la distancia calculada entre el mouse y cada elemento;
+— esto provoca cambios en el movimiento, deformación y tipo de letra que aparece en pantalla.
 
 Cuando el usuario hace click:
 
-- el sistema genera un nuevo color aleatorio;
-- automáticamente todas las letras cambian de color.
+— el sistema genera un nuevo color aleatorio;
+— automáticamente todas las letras cambian de color.
 
 - ### Qué datos entran
 Los datos de entrada son:
 
-- coordenadas del mouse (mouseX, mouseY);
-- clicks del usuario;
-- tiempo interno del sistema (frameCount);
-- y valores aleatorios generados por random().
+— coordenadas del mouse (mouseX, mouseY);
+— clicks del usuario;
+— tiempo interno del sistema (frameCount);
+— y valores aleatorios generados por random().
 
 - ### Cómo se procesan y transforman
 Los datos son transformados mediante:
 
-- map() para convertir movimientos en desplazamientos;
-- dist() para calcular cercanía;
-- sin() para generar ondas;
-- condicionales if para cambiar letras;
-- y bucles for para actualizar toda la grilla.
+— map() para convertir movimientos en desplazamientos;
+— dist() para calcular cercanía;
+— sin() para generar ondas;
+— condicionales if para cambiar letras;
+— y bucles for para actualizar toda la grilla.
 
 - ### Qué respuesta visual producen
 La respuesta visual producida por el sistema es:
 
-- una grilla tipográfica dinámica;
-- movimiento ondulado continuo;
-- deformaciones ópticas;
-- cambios de letras;
-- desplazamientos interactivos;
-- y cambios de color aleatorios.
+— una grilla tipográfica dinámica;
+— movimiento ondulado continuo;
+— deformaciones ópticas;
+— cambios de letras;
+— desplazamientos interactivos;
+— y cambios de color aleatorios.
 
 ## Diagrama de flujo
 
