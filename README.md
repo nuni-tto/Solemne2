@@ -2,7 +2,7 @@
 
 ## Información del Proyecto 
 
-- **Nombre del proyecto:** RM Mono type animations by John Burgess - Poster for Amsterdam Sinfonietta's 
+- **Nombre del proyecto:** RM Mono type animations - Poster for Amsterdam Sinfonietta's 
 - **Autor:** John Burgess - Stan Haanappel
 
 ![Referencia1](Imagenes/Referencias/cosmos_815856738.gif)
