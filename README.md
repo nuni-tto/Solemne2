@@ -233,3 +233,6 @@ La respuesta visual producida por el sistema es:
 
 ![Diagrama de flujo](Imagenes/Diagrama_de_Flujo_Solemne_II.jpg)
 
+## Link Sketch
+
+https://editor.p5js.org/marina.cossio/sketches/VN4xDqIZT
