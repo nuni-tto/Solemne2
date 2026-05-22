@@ -235,4 +235,4 @@ La respuesta visual producida por el sistema es:
 
 ## Link Sketch
 
-
+https://editor.p5js.org/marina.cossio/sketches/VN4xDqIZT
