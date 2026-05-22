@@ -6,6 +6,7 @@
 - **Autor:** John Burgess - Stan Haanappel
 
 ![Referencia1](Imagenes/Referencias/cosmos_815856738.gif)
+![Referencia2](Imagenes/Referencias/cosmos_207102207.gif)
   
 ## Descripción objetiva
 
