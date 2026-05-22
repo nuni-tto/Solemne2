@@ -5,7 +5,8 @@
 - **Nombre del proyecto:** RM Mono type animations by John Burgess - Poster for Amsterdam Sinfonietta's 
 - **Autor:** John Burgess - Stan Haanappel
   
-## Descripción objetiva**
+## Descripción objetiva
+
 - **Qué es el proyecto**
 El proyecto consiste en una composición visual interactiva inspirada en el arte cinético y el Op Art tipográfico, desarrollada mediante programación en p5.js. La obra busca generar una sensación de movimiento, profundidad y distorsión visual a través de patrones repetitivos y comportamiento reactivo en tiempo real.El proyecto consiste en una composición visual interactiva inspirada en el arte cinético y el Op Art tipográfico, desarrollada mediante programación en p5.js. La obra busca generar una sensación de movimiento, profundidad y distorsión visual a través de patrones repetitivos y comportamiento reactivo en tiempo real.
   
