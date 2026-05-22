@@ -11,8 +11,8 @@
 ## Descripción objetiva
 
 - ### Qué es el proyecto
-El proyecto consiste en una composición visual interactiva inspirada en el arte cinético y el Op Art tipográfico, desarrollada mediante programación en p5.js. La obra busca generar una sensación de movimiento, profundidad y distorsión visual a través de patrones repetitivos y comportamiento reactivo en tiempo real.El proyecto consiste en una composición visual interactiva inspirada en el arte cinético y el Op Art tipográfico, desarrollada mediante programación en p5.js. La obra busca generar una sensación de movimiento, profundidad y distorsión visual a través de patrones repetitivos y comportamiento reactivo en tiempo real.
-  
+El proyecto consiste en una composición visual interactiva inspirada en el arte cinético y el Op Art tipográfico, desarrollada mediante programación en p5.js. La obra busca generar una sensación de movimiento, profundidad y distorsión visual a través de patrones repetitivos y comportamiento reactivo en tiempo real.
+
 - ### Qué se ve en pantalla
 En pantalla se observa una grilla formada por múltiples letras distribuidas de manera uniforme sobre un fondo negro. Estas letras no permanecen estáticas, sino que se deforman y desplazan constantemente mediante movimientos ondulados generados con funciones matemáticas. Además, la composición cambia dependiendo de la posición del mouse, provocando que las letras reaccionen y transformen su comportamiento visual según la cercanía del cursor.
 
