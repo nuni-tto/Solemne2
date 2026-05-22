@@ -177,4 +177,5 @@ La respuesta visual producida por el sistema es:
 
 ## Diagrama de flujo
 
+![Diagrama de flujo](imagenes/DiagramadeFlujoSolemneII.jpg)
 
